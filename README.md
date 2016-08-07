@@ -3,7 +3,7 @@
 ## Libraries Tested
 
 - [Bluebird](https://www.npmjs.com/package/bluebird) `v3.4.1`
-- [clone-deep](https://www.npmjs.com/package/simon-promise) `v1.0.0`
+- [Simon Promise](https://www.npmjs.com/package/simon-promise) `v1.0.0`
 
 ## Results
 
