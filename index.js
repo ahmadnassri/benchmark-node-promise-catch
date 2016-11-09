@@ -5,7 +5,7 @@ const chalk = require('chalk')
 
 // libs
 const Bluebird = require('bluebird')
-const Simon = require('simon-promise')
+const Smart = require('smart-promise')
 
 class CustomError extends Error {}
 
@@ -23,7 +23,7 @@ new Benchmark.Suite()
     name: 'simon-promise',
     defer: true,
     fn: deferred => {
-      Simon
+      Smart
         .reject(new CustomError())
         .catch(Error, CustomError, _ => deferred.resolve())
     }
