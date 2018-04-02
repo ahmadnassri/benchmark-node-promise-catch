@@ -26,6 +26,6 @@
     "snazzy": "^5.0.0"
   },
   "dependencies": {
-    "smart-promise": "^1.0.0"
+    "smart-promise": "^2.0.0"
   }
 }
